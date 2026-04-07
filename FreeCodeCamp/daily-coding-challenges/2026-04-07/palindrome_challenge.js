@@ -11,8 +11,4 @@ function palindromeLocator(str) {
     return str[index -1] + str[index]
 }
 
-console.log(palindromeLocator('racecar'))
-console.log(palindromeLocator('level'))
-console.log(palindromeLocator('freecodecamp'))
-console.log(palindromeLocator('noon'))
-console.log(palindromeLocator('11100111'))
+module.exports = palindromeLocator
