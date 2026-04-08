@@ -23,7 +23,8 @@ function fixPrankNumber(arr) {
             break;
         }
     }
-    console.log(arr)
+
+
     return arr;
 }
 
